@@ -4,3 +4,4 @@
 
 Resources:
 [Course video playlist](https://www.youtube.com/playlist?list=PLUl4u3cNGP60hI9ATjSFgLZpbNJ7myAg6)
+[MIT calculus online textbook](https://ocw.mit.edu/resources/res-18-001-calculus-online-textbook-spring-2005/textbook/)

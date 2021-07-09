@@ -7,6 +7,11 @@
 Distribution | Link
 ------------ | -------------
 Gaussian (Normal) Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Normal_distribution)
+Continuous Uniform Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Continuous_uniform_distribution)
+Discrete Uniform Distriution | [Wikipedia](https://en.wikipedia.org/wiki/Discrete_uniform_distribution)
+Bernoulli Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Bernoulli_distribution)
+Binomial Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Binomial_distribution)
+
 
 ## Resources:
 [Course video playlist](https://www.youtube.com/playlist?list=PLUl4u3cNGP60hI9ATjSFgLZpbNJ7myAg6) <br>

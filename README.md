@@ -15,6 +15,7 @@ Student t Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Student%27s_t
 Laplace Distribution| [Wikipedia](https://en.wikipedia.org/wiki/Laplace_distribution)
 Chi-square Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Chi-square_distribution)
 Negative Binomial Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Negative_binomial_distribution)
+Beta Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Beta_distribution)
 
 ### Discrete
 Distribution | Link

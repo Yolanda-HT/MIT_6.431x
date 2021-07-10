@@ -14,17 +14,17 @@ Chi-square Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Chi-square_d
 Cauchy Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Cauchy_distribution) | The Cauchy distribution f(x;x_0, gamma) is the distribution of the x-intercept of a ray issuing from (x_0, gamma) with a uniformly distributed angle. It is also the distribution of the ratio of two independent normally distributed random variables with mean zero.
 Student t Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Student%27s_t-distribution) | Student's t-distribution is any member of a family of continuous probability distributions that arise when estimating the mean of a normally-distributed population in situations where the sample size is small and the population's standard deviation is unknown.
 Laplace Distribution| [Wikipedia](https://en.wikipedia.org/wiki/Laplace_distribution) | It can be thought of as two exponential distributions (with an additional location parameter) spliced together back-to-back, although the term is also sometimes used to refer to the Gumbel distribution. 
-Negative Binomial Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Negative_binomial_distribution) | Models the number of successes in a sequence of independent and identically distributed Bernoulli trials before a specified (non-random) number of failures (denoted r) occurs.
 Beta Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Beta_distribution) | The beta distribution has been applied to model the behavior of random variables limited to intervals of finite length in a wide variety of disciplines.
 
 ### Discrete
-Distribution | Link
------------- | -------------
-Bernoulli Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Bernoulli_distribution)
-Discrete Uniform Distriution | [Wikipedia](https://en.wikipedia.org/wiki/Discrete_uniform_distribution)
-Binomial Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Binomial_distribution)
-Geometric Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Geometric_distribution)
-Poisson Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Poisson_distribution)
+Distribution | Link | Description 
+------------ | ------------- | -------------
+Bernoulli Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Bernoulli_distribution) | The discrete probability distribution of a random variable which takes the value 1 with probability p and the value 0 with probability q = 1 - p.
+Discrete Uniform Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Discrete_uniform_distribution) ｜ Finite number of values are equally likely to be observed.
+Geometric Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Geometric_distribution) | The probability distribution of the number X of Bernoulli trials needed to get one success, supported on the set { 1, 2, 3, ... }.
+Poisson Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Poisson_distribution) |  The probability of a given number of events occurring in a fixed interval of time or space if these events occur with a known constant mean rate and independently of the time since the last event.
+Binomial Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Binomial_distribution) ｜  The binomial distribution with parameters n and p is the discrete probability distribution of the number of successes in a sequence of n independent experiments, each asking a yes–no question.
+Negative Binomial Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Negative_binomial_distribution) | Models the number of successes in a sequence of independent and identically distributed Bernoulli trials before a specified (non-random) number of failures (denoted r) occurs.
 
 
 ## Resources:

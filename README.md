@@ -20,10 +20,10 @@ Beta Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Beta_distribution)
 Distribution | Link | Description 
 ------------ | ------------- | -------------
 Bernoulli Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Bernoulli_distribution) | The discrete probability distribution of a random variable which takes the value 1 with probability p and the value 0 with probability q = 1 - p.
-Discrete Uniform Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Discrete_uniform_distribution) ｜ Finite number of values are equally likely to be observed.
+Discrete Uniform Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Discrete_uniform_distribution) | Finite number of values are equally likely to be observed.
 Geometric Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Geometric_distribution) | The probability distribution of the number X of Bernoulli trials needed to get one success, supported on the set { 1, 2, 3, ... }.
 Poisson Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Poisson_distribution) |  The probability of a given number of events occurring in a fixed interval of time or space if these events occur with a known constant mean rate and independently of the time since the last event.
-Binomial Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Binomial_distribution) ｜  The binomial distribution with parameters n and p is the discrete probability distribution of the number of successes in a sequence of n independent experiments, each asking a yes–no question.
+Binomial Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Binomial_distribution) | The binomial distribution with parameters n and p is the discrete probability distribution of the number of successes in a sequence of n independent experiments, each asking a yes–no question.
 Negative Binomial Distribution | [Wikipedia](https://en.wikipedia.org/wiki/Negative_binomial_distribution) | Models the number of successes in a sequence of independent and identically distributed Bernoulli trials before a specified (non-random) number of failures (denoted r) occurs.
 
 

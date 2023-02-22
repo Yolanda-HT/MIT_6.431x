@@ -1,0 +1,27 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Probability models and axioms}{1}{chapter.8}%
+\contentsline {section}{\numberline {1.1}Math Overview}{1}{section.9}%
+\contentsline {subsection}{\numberline {1.1.1}Sets and De Morgan's Laws}{1}{subsection.10}%
+\contentsline {subsection}{\numberline {1.1.2}Sequences and their limits}{2}{subsection.11}%
+\contentsline {subsection}{\numberline {1.1.3}Infinite series}{2}{subsection.12}%
+\contentsline {subsection}{\numberline {1.1.4}Geometric series}{2}{subsection.13}%
+\contentsline {subsection}{\numberline {1.1.5}Sums with multiple indices}{2}{subsection.14}%
+\contentsline {subsection}{\numberline {1.1.6}Countable and uncountable sets}{3}{subsection.15}%
+\contentsline {section}{\numberline {1.2}Lecture 1: Probability models and axioms}{3}{section.16}%
+\contentsline {subsection}{\numberline {1.2.1}Sample space}{3}{subsection.17}%
+\contentsline {subsection}{\numberline {1.2.2}Probability laws}{3}{subsection.18}%
+\contentsline {subsection}{\numberline {1.2.3}Some simple consequences of the axioms}{4}{subsection.19}%
+\contentsline {subsection}{\numberline {1.2.4}More consequences of the axioms}{4}{subsection.20}%
+\contentsline {subsection}{\numberline {1.2.5}Discrete uniform law}{4}{subsection.21}%
+\contentsline {subsection}{\numberline {1.2.6}Uniform probability law}{4}{subsection.22}%
+\contentsline {subsection}{\numberline {1.2.7}Probability calculation steps}{4}{subsection.23}%
+\contentsline {subsection}{\numberline {1.2.8}Countable additivity axiom}{4}{subsection.24}%
+\contentsline {subsection}{\numberline {1.2.9}Interpretations of probabilities}{5}{subsection.25}%
+\contentsline {subsection}{\numberline {1.2.10}The role of probability theory}{5}{subsection.26}%
+\contentsline {chapter}{\numberline {2}Conditioning and independence}{7}{chapter.27}%
+\contentsline {section}{\numberline {2.1}Lecture 2: Conditioning an Baye's rule}{7}{section.28}%
+\contentsline {subsection}{\numberline {2.1.1}Conditional Probability}{7}{subsection.29}%
+\contentsline {subsection}{\numberline {2.1.2}Three \textbf {important} tools: Multiplication rule; Total probability theorem; Baye's rule}{7}{subsection.30}%
+\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{9}{appendix.31}%
+\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{9}{section.32}%

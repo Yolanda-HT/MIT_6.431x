@@ -1,0 +1,256 @@
+% Chapter 1
+
+\chapter{Probability models and axioms} % Main chapter title
+
+\label{Unit 1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+%-------------------------------------------------------------------------------------------------------
+% Define some commands to keep the formatting separated from the content 
+\newcommand{\keyword}[1]{\textbf{#1}}
+\newcommand{\tabhead}[1]{\textbf{#1}}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\file}[1]{\texttt{\bfseries#1}}
+\newcommand{\option}[1]{\texttt{\itshape#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%---------------SECTION START---------------%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Math Overview}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Sets and De Morgan's Laws} 
+\noindent{\textbf{\textcolor{brown}{Sets}}}
+\begin{itemize}
+\item A collection of distinct element
+\item Can be finite or infinite
+\end{itemize}
+
+%-------------------------------------------------------------------------------------------------------
+\noindent{\textbf{\textcolor{brown}{Unions and intersections}}
+\begin{itemize}
+\item $S \cup T: \quad x \in S \cup T \Leftrightarrow x \in S$ or $x \in T $
+\item $S \cap T: \quad x \in S \cap T \Leftrightarrow x \in S $ and $x \in T$
+\item $x \in \underset{n}{\cup} S_n \Leftrightarrow x \in S_n$, for  some $n$
+\item $x \in \underset{n}{\cap} S_n \Leftrightarrow x \in S_n$, for all $n$
+\end{itemize}
+
+%-------------------------------------------------------------------------------------------------------
+\noindent{\textbf{\textcolor{brown}{Set properties}}
+\begin{itemize}
+\item $S \cup T = T \cup S$
+\item $S \cap (T \cup U) = (S \cap T) \cup (S \cap U) $
+\item $(S^c)^c = S$
+\item $S \cup \Omega = \Omega$
+\item $S \cup (T \cup U) = (S \cup T) \cup U$
+\item $S \cup (T \cap U) = (S \cup T) \cap (S \cup U)$
+\item $S \cap S^c = \emptyset$
+\item $S \cap \Omega = S$
+\end{itemize}
+
+%-------------------------------------------------------------------------------------------------------
+\noindent{\textbf{\textcolor{brown}{De Morgan's laws}}
+\begin{itemize}
+\item $(\underset{n}{\cap} S_n)^c = \underset{n}{\cup} S_n^c$
+\item $(\underset{n}{\cup} S_n)^c = \underset{n}{\cap} S_n^c$
+\end{itemize}
+
+%-------------------------------------------------------------------------------------------------------
+\noindent{\textbf{\textcolor{brown}{Sequences and their limits}}
+
+\begin{outline}
+\1 \textbf{Definition of Sequence} 
+  \2 function$ f: \mathbb{N} \rightarrow S, f(i) = a_i$
+\1 \textbf{Convergence of Sequence} 
+  \2 $a_i \underset{i \rightarrow \infty}{\rightarrow} a, \lim\limits_{i\to\infty} a_i = a$ 
+  \2 For any $\epsilon > 0$, there exists $i_0$, such that if $i \geq i_0$, then $|a_i - a| < \epsilon$
+\end{outline}
+
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Sequences and their limits}
+
+\begin{outline}
+ \1 If $a_i \geq a_{i+1}$, for all $i$, then either:
+   \2 the sequence "converges to $\infty$"
+   \2 the sequence converges to some real number a
+ \1 If $|a_i - a| \leq b_i$, for all $i$, and $b_i \rightarrow 0$, then $a_i \rightarrow a$
+ \1 Properties of convergent sequences
+   \2 If $a_i \rightarrow a$ and $b_i \rightarrow b$, then
+     \3 $a_i + b_i \rightarrow a + b$
+     \3 $a_i b_i \rightarrow a b$
+   \2 If $a_i \rightarrow a$ and $g$ is a continuous function, then
+     \3 $g(a_i) \rightarrow g(a)$
+\end{outline}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Infinite series}
+
+Provided limit exists: $\sum\limits_{i=1}^{\infty}a_i = \lim\limits_{n \rightarrow \infty} \sum\limits_{i=1}^{n} a_i$
+
+\begin{outline}
+\1 If $a_i \geq 0$: limit exists
+\1 If term $a_i$ do not all have the same sign:
+  \2 limit need not exist
+  \2 limit may exist but be different if we sum in a different order
+  \2 \textbf{Fact:} limit exists and independent of order of summation if $\sum\limits_{i=1}^{\infty} |a_i| < \infty$
+\end{outline}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Geometric series}
+
+$\sum\limits_{i=0}^{\infty}\alpha^i = 1 + \alpha + \alpha^2 + ... + = \frac{1}{1-\alpha}$ $|\alpha| < 1$
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Sums with multiple indices}
+
+$\sum\limits_{i\geq1, j\geq1} a_{ij}$
+\begin{outline}
+\1 If the sum converges, this double series will be well defined.
+\1 If $\sum |a_{ij}| < \infty$, then order of summation does not matter.
+\end{outline}
+
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Countable and uncountable sets}
+
+\begin{outline}
+\1 Countable: can put in 1-1 correspondence with positive integers
+  \2 positive integers
+  \2 integers
+  \2 pairs of positive integers
+  \2 rational number $q$, with $0 < q < 1$
+    \3 $1/2, 1/2, 2/3, 1/4, 2/4, 3/4, 1/5, 2/5 ...$
+\1 Uncountable: not countable
+  \2 the interval $[0,1]$
+  \2 the reals, the plane, ...
+\1 The reals are uncountable
+  \2 Cantor's diagonalization argument
+\end{outline}
+
+
+%%%%%%%%%%---------------          END          ---------------%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%---------------SECTION START---------------%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Lecture 1: Probability models and axioms}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Sample space}
+\begin{outline}
+\1 Two steps:
+  \2 Describe possible outcomes
+  \2 Describe beliefs about likelihood of outcomes
+\1 List (set) of possible outcomes, $\Omega$
+  \2 Mutually exclusive
+  \2 Collectively exhaustive
+  \2 At the "right" granularity
+\1 Examples
+  \2 Discrete / finite
+    \3 Two rolls of a tetrahedral die
+    \3 Sequential description (decision tree)
+  \2 Continuous
+    \3 $(x,y)$ such that $0 \leq x, y \leq 1$
+\end{outline}
+
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Probability laws}
+\begin{outline}
+\1 \textbf{\textcolor{brown}{Event:}} a subset of the sample space
+  \2 Probability is assigned to events
+\1 \textbf{\textcolor{brown}{Axioms:}}
+  \2 Nonnegativity: $P(A) \geq 0$
+  \2 Normalization: $P(\Omega) = 1$
+  \2 (Finite) additivity: (to be strengthened later)
+    \3 If $A \cap B = \emptyset$, then $P(A \cup B) = P(A) + P(B)$
+\end{outline}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Some simple consequences of the axioms}
+\begin{outline}
+\1 $P(A) \leq 1$
+\1 $P(\emptyset) = 0$
+\1 $P(A) + P(A^C)  = 1$
+\1 $P(A \cup B \cup C) = P(A) + P(B) + P(C)$ and similarly for $k$ disjoint events $P({s_1, s_2, ... s_k}) = P(s_1) + ... + P(s_k)$
+\1 $A \cup A^C = \Omega$
+\1 $A \cap A^C = \emptyset$
+\end{outline}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{More consequences of the axioms}
+\begin{outline}
+\1 If $A \subset B$, then $P(A) \leq P(B)$
+\1 $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
+\1 $P(A \cup B) \leq P(A) + P(Bs)$
+\1 $P(A \cup B \cup C) = P(A) + P(A^C \cap B) + P(A^C \cap B^C \cap C)$
+\end{outline}
+
+\textbf{Examples}
+\begin{outline}
+\1 \textbf{\textcolor{brown}{Discrete / finite example:}} Two rolls of a tetrahedral die
+  \2 $X = First roll$, $Y = Second roll$, $Z = min(X,Y)$
+  \2 $P(X=1) = 4/16 = 1/4$, $P(Z=2)=5/16$
+\end{outline}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Discrete uniform law}
+\begin{outline}
+\1 Assume $\Omega$ consists of $n$ equally likely elements
+\1 Assume $A$ consists of $k$ elements
+\1 $P(A) = k \cdot \frac{1}{n}$
+\end{outline}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Uniform probability law}
+\begin{outline}
+\1 $Probabiliy = Area$
+\end{outline}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Probability calculation steps}
+\begin{outline}
+\1 Specify the sample space
+\1 Specify a probability law
+\1 Identify an event of interest
+\1 Calculate ...
+\end{outline}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Countable additivity axiom}
+\begin{outline}
+\1 If $A_1, A_2, A_3, ...$ is an infinite sequence of disjoint events,
+  \2 Then $P(A_1 \cup A_2 \cup A_3 \cup ...) = P(A_1) + P(A_2) + P(A_3) + ...$
+\end{outline}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Interpretations of probabilities}
+\begin{outline}
+\1 A narrow view: a branch of math
+  \2 Axioms $\Rightarrow$ theorems
+\1 Are probabilities frequencies?
+  \2 $P$(coin toss yields heads) $= 1/2$
+  \2 $P$(the president of ... will be reelected) $= 0.7$
+\1 Probabilities are often interpreted as:
+  \2 Description of beliefs
+  \2 Betting preferences
+\end{outline}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{The role of probability theory}
+\begin{outline}
+\1 A framework for analyzing phenomena with uncertain outcomes
+  \2 Rules for consistent reasoning
+  \2 Used for predictions and decisions
+\1 Diagram
+  \2 \textbf{Real world} $\Rightarrow$ data $\Rightarrow$ \textbf{Inference/Statistics}
+  \2 \textbf{Inference/Statistics} $\Rightarrow$ Models $\Rightarrow$ \textbf{Probability theory (Analysis)}
+  \2 \textbf{Probability theory (Analysis)} $\Rightarrow$ Predictions / Decisions $\Rightarrow$ \textbf{Real world}
+\end{outline}
+
+%%%%%%%%%%---------------          END          ---------------%%%%%%%%%%
+
+
+

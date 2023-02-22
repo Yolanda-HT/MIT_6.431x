@@ -1,0 +1,68 @@
+% Chapter 1
+
+\chapter{Conditioning and independence} % Main chapter title
+
+\label{Unit 2} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%---------------SECTION START---------------%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Lecture 2: Conditioning an Baye's rule}
+
+The idea of conditioning: Use new information to revise a model
+%-------------------------------------------------------------------------------------------------------
+\subsection{Conditional Probability} 
+
+\noindent{\textbf{The idea of conditioning}}: Use new information to revise a model \\
+
+\noindent{\textbf{Definition of conditional probability}}
+\begin{outline}
+\1 $P(A|B) = $ "probability of $A$, given that $B$ occurred"
+\1 $P(A|B) = \frac{P(A \cap B)}{P(B)}$ defined only when $P(B) > 0$
+\end{outline}
+
+\noindent{\textbf{Two rolls of a 4-sided die}}
+\begin{outline}
+\1 Let $B$ be the event: $min(X,Y)=2$. Let $M=max(X,Y)$
+  \2 $P(M=1|B) = 0$
+  \2 $P(M=3|B) = \frac{P(M=3 and B)}{P(B}=\frac{2/16}{5/16}=2/5$
+\end{outline}
+
+\noindent{\textbf{Conditional probabilities hsare properties of ordinary probabilities}}
+\begin{outline}
+\1 $P(A|B) \geq 0$, assuming $P(B) > 0$
+\1 $P(\Omega|B) = \frac{P(\Omega \ cap B)}{P(B)} = 1$
+\1 $P(B|B) = 1$
+\1 If $A \ cap C = \emptyset$, then $P(A \cup C | B) = P(A|B) + P(C|B)$
+\end{outline}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Three \textbf{important} tools: Multiplication rule; Total probability theorem; Baye's rule} 
+\begin{outline}
+\1 Multiplication rule
+  \2 $P(A|B) = \frac{P(A \cap B)}{P(B)}$
+  \2 $P(A \cap B) = P(B)P(A|B) = P(A)P(B|A)$
+\1 Total probability theorem
+  \2 Partition of sample space into $A_1, A_2, A_3, ...$
+  \2 Have $P(A_i)$, for every $i$
+  \2 Have $P(B|A_i)$, for every$i$
+  \2 $P(B) = \sum\limits_{i} P(A_i)P(B|A_i)$
+\end{outline}
+
+\noindent{\textbf{Bayes' rule and inference}}
+\begin{outline}
+\1 Thomas Bayes, presbyterian minister (c. 1701 - 1761)
+\1 "Bayes' theorem", published pothumously
+\1 systematic approach for incorporatin new evidence
+\1 \textbf{Bayesian inference}
+  \2 initial beliefs $P(A_i)$ on possible causes of an observed event $B$
+  \2 model of the world under each $A_i$: $P(B|A_i)$
+    \3 $A_i \xrightarrow[\text{model}]{P(B|A_i)} B$
+  \2 draw conclusions about causes
+    \3 $B \xrightarrow[\text{inference}]{P(A_i|B)} A_i$
+\end{outline}
+
+%%%%%%%%%%---------------          END          ---------------%%%%%%%%%%
+
+
+

@@ -23,5 +23,18 @@
 \contentsline {section}{\numberline {2.1}Lecture 2: Conditioning an Baye's rule}{7}{section.28}%
 \contentsline {subsection}{\numberline {2.1.1}Conditional Probability}{7}{subsection.29}%
 \contentsline {subsection}{\numberline {2.1.2}Three \textbf {important} tools: Multiplication rule; Total probability theorem; Baye's rule}{7}{subsection.30}%
-\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{9}{appendix.31}%
-\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{9}{section.32}%
+\contentsline {section}{\numberline {2.2}Lecture 3: Independence}{8}{section.31}%
+\contentsline {subsection}{\numberline {2.2.1}Independence of two events}{8}{subsection.32}%
+\contentsline {subsection}{\numberline {2.2.2}Conditional independence}{8}{subsection.33}%
+\contentsline {subsection}{\numberline {2.2.3}Independence of a collection of events}{9}{subsection.34}%
+\contentsline {subsection}{\numberline {2.2.4}Pairwise independence}{9}{subsection.35}%
+\contentsline {subsection}{\numberline {2.2.5}Reliability}{9}{subsection.36}%
+\contentsline {subsection}{\numberline {2.2.6}The king's sibling puzzle}{9}{subsection.37}%
+\contentsline {chapter}{\numberline {3}Counting}{11}{chapter.38}%
+\contentsline {section}{\numberline {3.1}Lecture 4: Counting}{11}{section.39}%
+\contentsline {subsection}{\numberline {3.1.1}Discrete uniform law}{11}{subsection.40}%
+\contentsline {subsection}{\numberline {3.1.2}Basic counting principle}{11}{subsection.41}%
+\contentsline {subsection}{\numberline {3.1.3}Combinations}{12}{subsection.42}%
+\contentsline {subsection}{\numberline {3.1.4}Partitions}{12}{subsection.43}%
+\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{13}{appendix.44}%
+\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{13}{section.45}%

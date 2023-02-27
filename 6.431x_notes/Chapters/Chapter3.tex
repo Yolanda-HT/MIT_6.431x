@@ -1,0 +1,79 @@
+% Chapter 1
+
+\chapter{Counting} % Main chapter title
+
+\label{Unit 3} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+%-------------------------------------------------------------------------------------------------------
+% Define some commands to keep the formatting separated from the content 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%---------------SECTION START---------------%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Lecture 4: Counting}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Discrete uniform law}
+\begin{outline}
+\1 Assume $\Omega$ consists of $n$ equaly likely elements
+\1 Assume $A$ consists of $k$ elements
+\1 Then: $\color{red} P(A) = \frac{\text{number of elements of } A}{\text{number of elements of } \Omega} = \frac{k}{n}$
+\1 Applications
+  \2 Permutations, combinations
+  \2 Partitions
+  \2 Number of subsets
+  \2 Binomial probabilities
+\end{outline}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Basic counting principle}
+
+\noindent{\textbf{Example}}
+\begin{outline}
+\1 4 shirts, 3 ties, 2 jackets: number of possible attires?
+  \2 $r$ selection stages
+  \2 $n_i$ choices at stage $i$
+\1 Number of choices is: $n_1 \cdot n_2 \cdot n_3 ... \cdot n_r$
+\end{outline}
+
+\noindent{\textbf{More examples}}
+\begin{outline}
+\1 Number of license plates with 2 letters followed by 3 digits:
+  \2 $26 \cdot 26 \cdot 10 \cdot 10 \cdot 10$
+\1 \textbf{Permutations:} Number of ways of ordering $n$ elements:
+  \2 $n \cdot (n-1) \cdot (n-2) ... \cdot 1 = n!$
+\1 Number of subsets of {1, ..., n}:
+  \2 $2 \cdot 2 \cdot ... \cdot 2 = 2^n$
+\end{outline}
+
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Combinations}
+
+\begin{outline}
+\1 Definition: $\color{red} \binom{n}{k}$: number of $k$-element subsets of a given $n$-element set $\color{red}=\frac{n!}{k!(n-k)!}$
+\1 Two ways of constructing an \textbf{ordered} sequence of $k$ \textbf{distinct} items:
+  \2 Choose the $k$ items one at a time
+  \2 Choose $k$ items, then order them
+\end{outline}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Partitions}
+
+\begin{outline}
+\1 $n \geq 1$ distinct items; $r \geq 1$ persons, given $n_i$ items to person $i$
+  \2 here $n_1, ..., n_r$ are given nonnegative integers
+  \2 with $n_1 + ... n_r = n$
+\1 Ordering $n$ items: $n!$
+  \2 Deal $n_i$ to each persons $i$, and then order
+\1 Number of partitions $\color{red} =\frac{n!}{n_1!n_2!...n_r!}$ (multinomial effect)
+\end{outline}
+
+
+%%%%%%%%%%---------------          END          ---------------%%%%%%%%%%
+
+
+%%%%%%%%%%---------------          END          ---------------%%%%%%%%%%
+
+
+

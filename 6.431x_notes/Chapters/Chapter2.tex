@@ -66,3 +66,78 @@ The idea of conditioning: Use new information to revise a model
 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%---------------SECTION START---------------%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Lecture 3: Independence}
+%-------------------------------------------------------------------------------------------------------
+\subsection{Independence of two events} 
+\begin{outline}
+\1 \textbf{Intuitive "definition"}: $P(B|A) = P(B)$
+  \2 occurrence of $A$ provides no new information about $B$
+\1 \textbf{Definition of independence}: $\color{red} P(A \cap B) = P(A) \cdot P(B)$
+  \2 Symmetric with respect to $A$ and $B$
+  \2 implies $P(A|B) = P(A)$
+  \2 applies even if $P(A) = 0$
+\1 If $A$ and $B$ are independent, then $A$ and $B^C$ are independent.
+\end{outline}
+
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Conditional independence} 
+\begin{outline}
+\1 Conditional independence, given C, is defined as independence under the probability law $P(\cdot | C)$
+\end{outline}
+
+\noindent{\textbf{Conditioning may affect independence}}
+\begin{outline}
+\1 Two unfair coins, $A$ and $B$: $P(H | \text{coin A}) = 0.9, P(H | \text{coin B}) = 0.1$
+\1 Choose either coin with equal probability
+  \2 $P(toss 11 = H) = 0.5$
+  \2 $P(toss 11 = H | \text{first 10 tosses are heads}) = 0.9$
+\end{outline}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Independence of a collection of events} 
+\begin{outline}
+\1 \textbf{Intuitive "definition": } Information on some of the events does not change probability related to the remaining events
+\1 \textbf{Definition: } Events $A_1, A_2, ..., A_n$ are called \textbf{independent} if $\color{red} (A_i \cap A_j \cap ... \cap A_m) = P(A_i)P(A_j)P(A_m)$ for any distinct indices $i,j,...m$
+\end{outline}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Pairwise independence} 
+\begin{outline}
+\1 Two independent fair coin tosses
+  \2 $H_1$: First toss is $H$
+  \2 $H_2$: Second toss is $H$
+  \2 $C$: the two tosses had the same result
+\1 Independence between $H_1$, $H_2$ and $C$
+  \2 $P(H_1 \cap C) = P(H_1 \cap H_2) = 1/4$, $P(H_1) P(C) = 1/2 \cdot 1/2 = 1/4$
+    \3 $H_1$ and $C$: independent, $H_2$ and $C$: independent
+  \2 $P(H_1 \cap H_2 \cap C) = P(HH) = 1/4$, $P(H_1) P(H_2) P(C) = 1/8$
+    \3 $H_1$, $H_2$ and $C$: not independent
+\1 \textbf{Conclusion:} $H_1$, $H_2$, $C$ are pairwise independent, but not independent
+\end{outline}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{Reliability} 
+\begin{outline}
+\1 Independent units:
+  \2 $p_1$ and $p_2$ and $p_3$ (series)
+    \3$P(\text{system up}) = p_1 p_2 p_3$
+  \2 $p_1$ or $p_2$ or $p_3$ (parallel)
+    \3$P(\text{system up}) = 1 - (1-p_1)(1-p_2)(1-p_3)$
+\end{outline}
+
+%-------------------------------------------------------------------------------------------------------
+\subsection{The king's sibling puzzle} 
+\begin{outline}
+\1 The king comes from a family of two children what is the probability that his sibling is female? (boy have precedence)
+\1 Combinations: BB, BG, GB, GG
+\1 $P(\text{sibling is female} | \text{king}) = 2/3$
+\end{outline}
+
+%%%%%%%%%%---------------          END          ---------------%%%%%%%%%%
+
+
+
